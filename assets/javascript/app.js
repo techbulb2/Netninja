@@ -1,7 +1,14 @@
-var myAge = 40;
+for (i = 0; i < 10; i++) {
 
-if (myAge < 18 || myAge > 40) {
-    document.write("you aren't coming.");
-} else {
-    document.write("you can come, you are cool dude.");
+    if(i === 5 || i === 3){
+        continue;
+    }
+
+    console.log(i);
+
+    if(i === 7){
+        break;
+    }
 }
+
+console.log("out of the loop");
