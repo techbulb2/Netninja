@@ -63,11 +63,27 @@
 // console.log(myFutureDate);
 
 
-var birthday = new Date(2022, 0, 14, 11, 15, 25);
+// var birthday = new Date(2022, 0, 14, 11, 15, 25);
+// var birthday2 = new Date(2022, 0, 14, 11, 15, 25);
 
-console.log(birthday.getDate());;
-console.log(birthday.getFullYear());;
-console.log(birthday.getDay());
-console.log(birthday.getHours());;
-console.log(birthday.getMinutes());;
-console.log(birthday.getMonth());;
+// console.log(birthday.getDate());;
+// console.log(birthday.getFullYear());;
+// console.log(birthday.getDay());
+// console.log(birthday.getHours());;
+// console.log(birthday.getMinutes());;
+// console.log(birthday.getMonth());;
+// console.log(birthday.getTime());;
+// console.log(birthday2.getTime());
+
+// if(birthday == birthday2){
+//     console.log("birthdays are equal");
+// } else{
+//     console.log("birthdays are not equal");
+// }
+
+
+//DOM -- Document Object Model
+//document --webpage, html document
+//object --head, p, body, ul tags
+//model --the organization or tree.
+//nodes --anything we can change in the document//attributes
