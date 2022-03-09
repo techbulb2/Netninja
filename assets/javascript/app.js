@@ -1,14 +1,22 @@
-var string1 = "abc";
-var string2 = "ABC";
+var myArray = new Array();
+myArray[0] = 8;
+myArray[1] = "hello";
 
-console.log(string1 < string2.toLocaleLowerCase());
-// console.log(myString.indexOf("ninja"));
+var myCar = new Object();
+myCar.maxSpeed = 50;
+myCar.driver = "Shawn";
+myCar.drive = function(){console.log("now driving");};
 
-// if (myString.indexOf("ninja") === -1){
 
-//     console.log("the word ninja is not in the string");
+myCar.drive();
 
-// } else{
-//     console.log("the word ninja starts at position " + myString.indexOf("ninja"));
-// }
+var myCar2 = {
+    maxSpeed: 50, 
+    driver: "Net Ninja", 
+    drive: function(speed, time){
+        console.log(speed * time);
+    }
+};
 
+console.log(myCar2.maxSpeed);
+myCar2.drive(50, 3);
