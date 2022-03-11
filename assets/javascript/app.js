@@ -1,89 +1,14 @@
-// var myArray = new Array();
-// myArray[0] = 8;
-// myArray[1] = "hello";
+var content = document.getElementById("content");
+var button = document.getElementById("show-more");
 
-// var myCar = new Object();
-// myCar.maxSpeed = 50;
-// myCar.driver = "Shawn";
-// myCar.drive = function(){console.log("now driving");};
-
-
-// myCar.drive();
-
-
-// var myCar2 = {
-//     maxSpeed: 50, 
-//     driver: "Net Ninja", 
-//     drive: function(speed, time){
-//         console.log(speed * time);
-//     },
-
-//     logDriver: function(){
-//         console.log("driver name is " + this.driver);
-//     }
-
-// };
-// myCar2.logDriver();
-// console.log(myCar2.maxSpeed);
-// myCar2.drive(50, 3);
-
-// var Car = function(maxSpeed, driver){
-
-//     this.maxSpeed = maxSpeed;
-//     this.driver = driver;
-//     this.drive = function(speed, time){
-//         console.log(speed * time);
-//     };
-
-//     this.logDriver= function(){
-//         console.log("driver name is " + this.driver);
-//     }
-
-
-// }
-
-// var myCar = new Car(70, "ninja man");
-// var myCar2 = new Car(70, " man");
-// var myCar3 = new Car(70, "shawn man");
-// var myCar4 = new Car(70, "many man");
-
-// myCar.drive(30,5);
-// myCar2.drive(30,6);
-// myCar2.logDriver();
-// myCar3.logDriver();
-// myCar4.drive(30,7);
-
-
-//DATE OBJECT
-
-// var myPastDate = new Date(1545, 11, 2, 10, 30, 15);
-// var myFutureDate = new Date(2022, 1, 21, 10, 30, 15);
-
-// console.log(myPastDate);
-// console.log(myFutureDate);
-
-
-// var birthday = new Date(2022, 0, 14, 11, 15, 25);
-// var birthday2 = new Date(2022, 0, 14, 11, 15, 25);
-
-// console.log(birthday.getDate());;
-// console.log(birthday.getFullYear());;
-// console.log(birthday.getDay());
-// console.log(birthday.getHours());;
-// console.log(birthday.getMinutes());;
-// console.log(birthday.getMonth());;
-// console.log(birthday.getTime());;
-// console.log(birthday2.getTime());
-
-// if(birthday == birthday2){
-//     console.log("birthdays are equal");
-// } else{
-//     console.log("birthdays are not equal");
-// }
-
-
-//DOM -- Document Object Model
-//document --webpage, html document
-//object --head, p, body, ul tags
-//model --the organization or tree.
-//nodes --anything we can change in the document//attributes
+button.onclick = function(){
+    if (content.className == "open"){
+        //shrink the box
+        content.className = "";
+        button.innerHTML = "show more";
+    }else {
+        //expand the box
+        content.className = "open";
+        button.innerHTML = "show less";
+    }
+};
