@@ -33,18 +33,18 @@ body {
     max-height: 30rem;
     overflow: hidden;
 
-    -webkit-transition: max-height 5.5s;
-    -moz-transition: max-height 5.5s;
-    transition: max-height 5.5s;
+    -webkit-transition: max-height 3.5s;
+    /* -moz-transition: max-height 3.5s; */
+    /* transition: max-height 3.5s; */
 }
 
 #content.open {
-    max-height: 1000rem;
+    max-height: 1000px;
 
     
-    -webkit-transition: max-height 5.5s;
-    -moz-transition: max-height 5.5s;
-    transition: max-height 5.5s;
+    -webkit-transition: max-height 3.5s;
+    /* -moz-transition: max-height 3.5s; */
+    /* transition: max-height 3.5s; */
 
 }
 
@@ -56,7 +56,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    display: block;
+    /* display: block; */
 }
 
 ul {
