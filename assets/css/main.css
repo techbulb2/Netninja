@@ -1,0 +1,115 @@
+/* :root {
+    --background-color-1: #eee;
+    --background-color-2: #fff;
+    --background-color-3: #1594e5;
+
+    
+    --color-1: #444;
+    --color-2: #fff;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    background-color: var(--background-color-1);
+    box-sizing: border-box;
+}
+
+#content {
+    width: 400px;
+    background-color: var(--background-color-2);
+    padding: 1.5rem;
+    font-size: 2rem;
+    margin: 0 auto;
+    color: var(--color-1);
+
+    max-height: 30rem;
+    overflow: hidden;
+
+    -webkit-transition: max-height .5s;
+    -moz-transition: max-height 5.5s;
+    transition: max-height 5.5s;
+}
+
+#content.open {
+    max-height: 1000px;
+
+    
+    -webkit-transition: max-height 5.5s;
+    -moz-transition: max-height 5.5s;
+    transition: max-height 5.5s;
+
+}
+
+#show-more {
+    background-color: var(--background-color-3);
+    color: var(--color-2);
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; */
+    /* display: block; */
+/* }
+
+ul {
+    margin: 0 auto;
+    max-width: 21rem; */
+    /* margin-top: 3rem; */
+/* 
+}
+
+li {
+    list-style-type: none;
+} */
+
+
+body {
+    background-color: #eee;
+
+}
+
+#message {
+    width: 400px;
+    background-color: #ddaaaa;
+    padding: 20px;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ff7777;
+    font-weight: bold;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+#message.show {
+    opacity: 1;
+
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+#color-changer {
+    width: 200px;
+    height: 100px;
+    margin: 30px  auto;
+    border: 1px solid #000;
+    background: #fff;
+
+    -webkit-transition: background 0.7s;
+    -moz-transition: background 0.7s;
+    transition: background 0.7s;
+}
+
